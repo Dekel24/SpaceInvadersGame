@@ -1,0 +1,43 @@
+﻿body{
+    position:relative;
+    background-image: url("images/Webbackground.jpeg");
+}
+#button{
+    position:absolute;
+    right:100px;
+    top:40%;
+    width:400px;
+    height:200px;
+    border-radius:50%;
+    border: 10px solid #00ffff;
+    color:lightblue;
+    background-color:darkorange;
+    font-size:60px;
+    word-spacing:2px;
+}
+
+#canvas{
+    margin-top:20px;
+    margin-left:40px;
+}
+
+.list{
+    position:absolute;
+    display:flex;
+    right:0;
+    top:0;
+    list-style:none;
+}
+
+.list li{
+    margin-left:20px;
+    display:flex;
+}
+
+.list li a{
+    color:red;
+    margin-bottom:5px;
+    border-bottom: 1px solid red;
+    font-size:40px;
+    text-decoration:none;
+}

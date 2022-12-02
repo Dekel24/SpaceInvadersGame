@@ -1,0 +1,76 @@
+﻿body {
+    position: relative;
+    background-image: url("images/Webbackground.jpeg");
+}
+
+.list {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-left: 20px;
+    display: flex;
+}
+
+.list li a {
+    color: red;
+    margin-bottom: 5px;
+    border-bottom: 1px solid red;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: darkcyan;
+    font-size: 100px;
+    font-weight: 200;
+}
+
+h1 span{
+    font-weight:900;
+    color:forestgreen;
+}
+
+.every-p{
+    align-items:center;
+}
+
+.p {
+    position: absolute;
+    line-height: 140%;
+    word-spacing: 4px;
+    color: darkorange;
+    font-size: 60px;
+}
+
+.p span{
+    font-weight:200;
+    color:cyan;
+}
+
+.p:first-child{
+    top:250px;
+    left:200px;
+}
+
+.p:nth-child(2) {
+    top: 350px;
+    left: 200px;
+}
+
+.p:nth-child(3){
+    top:450px;
+    left:200px;
+}
+
+.p:last-child{
+    top:550px;
+    left:200px;
+}
