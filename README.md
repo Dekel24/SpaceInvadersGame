@@ -1,18 +1,3 @@
-<style> 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-  
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-
-
 Hi, this is a game I built in order to get some knowledge about JavaScript FrontEnd development<br/>
 hope you'll have fun while playing <br/>
 This project was made with the following technologies: <br/>
